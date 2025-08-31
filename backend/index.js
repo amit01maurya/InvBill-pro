@@ -8,7 +8,7 @@ import invoiceRoutes from './routes/invoices.js';
 import analyticsRoutes from './routes/analytics.js';
 
 // ✅ Directly define environment variables (no .env needed)
-const MONGODB_URI = "mongodb+srv://admin:pcuNPg8nRFpqTZht@cluster0.qqn6h.mongodb.net/inventory-billing";
+const MONGODB_URI = "mongodb+srv://admin:db_passwordt@cluster0.qqn6h.mongodb.net/inventory-billing";
 const JWT_SECRET = "yourSecretKey";   // if needed inside auth logic
 const PORT = 5000;
 
